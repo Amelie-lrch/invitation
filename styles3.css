@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/3eme\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.confirmation{
+    margin-top: 100px;
+}
+.titres {
+    margin-left: 500px;
+    margin-top: 70px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+    }
+.prenom { 
+    background-color: rgb(143, 209, 235);
+    width: 250px;
+    font-size: 20px;
+    padding: 15px;
+   margin-left: 530px;
+   margin-bottom: 25px;
+}
+
+.mail {
+    background-color: rgb(143, 209, 235);
+    width: 250px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-left: 530px;
+}
+
+h4 {
+    font-size: 30px;
+    float: left;
+}
+
+.titre-nombre {
+     margin-left: 480px;
+     margin-top: 20px;
+     padding-right: 20px;
+}
+
+.nombre  {
+   margin-top:30px ;
+   background-color: rgb(143, 209, 235);
+  font-size: 15px;
+}
+
+.present {
+    margin-top:25px ;
+    background-color: rgb(143, 209, 235);
+    font-size: 20px;
+}
+
+.titre-present {
+    margin-left: 480px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.envoyer {
+    background-color: rgb(143, 209, 235);
+    width: 130px;
+    font-size: 20px;
+    margin-top: 80px;
+   
+}
+
+
+
+
+
+/*--FOOTER--*/
+footer{
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#fleche-gauche{
+    float: left;
+    font-size: 64px;
+    margin-left: 50px;
+    color: black;
+}
