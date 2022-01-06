@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(1page.jpg);
+    background-image: url(https://list.lisimg.com/image/7379822/700full.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -43,7 +43,7 @@ footer{
         box-sizing: border-box;
     }
     body{
-        background-image: url(1page.jpg);
+        background-image: url(https://list.lisimg.com/image/7379822/700full.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
