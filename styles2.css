@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(2eme\ page.jpg);
+    background-image: url(images/2eme\ page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -46,22 +46,37 @@ footer{
    
 
     body {
-        background-image: url(2eme\ page.jpg);
+        background-image: url(images/2eme\ page.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-       
+        height: 714px;
     }
     .text{
         margin-left: 100px;
         margin-right: 100px;
     }
-    p{
-        font-size: 18px;
-        text-align: center;
-        margin-top: 50px;
+
+    p {
+        font-size: 17px;
+        text-align: right;
+        margin-top: 223px;
+        position: absolute;
+        margin-right: 16px;
+        margin-left: 0px;
     }
 
    
     
 
+}
+
+@media screen and (min-width: 750px) {
+   
+    body {
+        background-image: url(images/1page.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 714px;
+}
 }
