@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(https://list.lisimg.com/image/7379822/700full.jpg);
+    background-image: url(images/1page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -43,11 +43,11 @@ footer{
         box-sizing: border-box;
     }
     body{
-        background-image: url(https://list.lisimg.com/image/7379822/700full.jpg);
+        background-image: url(images/1page.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 653px;
+        height: 714px;
     }
     .background{
         width: 100%;
@@ -56,19 +56,17 @@ footer{
         height:100%;
     }
     
-    p{
-    
-        
+    p {
         font-size: 30px;
-        margin-right: 60px;
-        margin-top: 100px;
+        margin-right: 10px;
+        margin-top: 72px;
     }
-
-    .couple{
+    
+    
+    .couple {
         width: 200px;
-        margin-top: 50px;
-        margin-left:20px ;
-   
+        margin-top: 170px;
+        margin-left: 100px;
     }
     /*--FOOTER--*/
 footer{
@@ -88,3 +86,13 @@ footer{
 }
 
 
+@media screen and (min-width: 750px) {
+   
+    body {
+        background-image: url(images/1page.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 714px;
+}
+}
