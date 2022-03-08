@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles3.css">
     <script src="https://kit.fontawesome.com/6709d2a5b5.js" crossorigin="anonymous"></script>
 </head>
@@ -12,28 +15,34 @@
 <div class="confirmation">
     <h1 class="titres">Confirmation
     </h1>
-    <form action="demo_form.asp">
-        <input class="prenom" type="text"  placeholder="Prénom & Nom"><br>
-       <input class="mail" type="text" placeholder="Email"><br>
+   
 
-        
-         <h4 class="titre-present">Présent ?</h4>
+     <form
+     action="https://formspree.io/f/meqnknol"
+     method="POST"
+   >
+     <label>
+         <label>
+              
+              <textarea class="prenom"  name="name" placeholder="Nom & Prénom"></textarea>
+            </label>
 
-       <select class="present">
-           <option value="present"> Présent 
-               cérémonie</option>
-           <option value="presentcf">Présent cérémonie
-               et festivités</option>
-           <option value="vin">Présent cérémonie 
-               et vin d'honneur </option>
-               <option value="paspresent">Ne sera
-                pas présent</option>
-         </select>
-<br>
-       <input class="envoyer" type="submit" value="Envoyer" >
-     </form>
+      
+       <input class="mail" type="email" name="_replyto" placeholder="Votre email">
+     </label>
+     <label>
+      
+       <textarea class="mess" name="message" placeholder="Merci de noter ici combien vous êtes, et si vous serez présent à la cérémonie, au vin d'honneur ou jusqu'a la fin des festivités. Réponse attendue avant le 15 avril 2022."></textarea>
+     </label>
+     <!-- your other form fields go here -->
+     <button  class="envoyer" type="submit">Envoyer</button>
+   </form>
+
+
+<h4 class="couleur">Dress code un vêtement bleu :</h4>
+<img class="imgcouleur" src="images/bleu.png" alt="">
+
 </div>
-
 
 
      <!--FOOTER-->
