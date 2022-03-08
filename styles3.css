@@ -2,6 +2,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    overflow-y: hidden; 
+ }
+
 body{
     background-image: url(images/3eme\ page.jpg);
     background-repeat: no-repeat;
@@ -355,4 +359,6 @@ body {
 
 
 }
+
+
 
