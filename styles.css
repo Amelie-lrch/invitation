@@ -3,6 +3,10 @@
     
     box-sizing: border-box;
 }
+
+body {
+    overflow-y: hidden; 
+ }
 body{
     background-image: url(images/1page.jpg);
     background-repeat: no-repeat;
@@ -47,7 +51,7 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 714px;
+        height: 964px;
     }
     .background{
         width: 100%;
@@ -86,14 +90,14 @@ footer{
 }
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) and (max-width:1060px) {
    
     body {
         background-image: url(images/1page.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 714px;
+        height: 1363px;
 }
 }
 
@@ -130,8 +134,6 @@ p {
     margin-top: 470px;
 }
 
-.couple {
-    width: 42%;
-    margin-top: 152px;
+
 }
-}
+
