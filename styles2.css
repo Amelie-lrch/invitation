@@ -13,16 +13,14 @@ body {
     background-position: unset;
     height: 800px;
 }
-.text{
-    margin-left: 80px;
-    margin-right: 500px;
-}
+
+
 p {
     font-size: 32px;
-    text-align: center;
-    margin-top: 276px;
-    margin-left: 120px;
-    margin-right: 120px;
+    text-align: cener;
+    margin-bottom: 150px;
+    margin-left: 520px;
+    margin-right: 520px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -48,6 +46,7 @@ footer{
     margin-left: 50px;
     color: black;
 }
+
 
 
 @media screen and (min-width: 370px) and (max-width:420px){
@@ -115,17 +114,17 @@ body {
     }
 
     @media screen and (min-width: 760px) and (max-width:1060px) {
-    p {
-        font-size: 28px;
-        text-align: center;
-        margin-top: 96px;
-        margin-left: 120px;
-        margin-right: 120px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        p {
+            font-size: 28px;
+            text-align: center;
+            margin-top: 96px;
+            margin-left: 120px;
+            margin-right: 120px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
     }
-}
 
-@media screen and (min-width: 1020px) and (max-width:1260px) {
+@media screen and (min-width: 1020px) {
 
     body {
         background-image: url(images/2eme\ page.jpg);
@@ -137,10 +136,20 @@ body {
     p {
         font-size: 28px;
         text-align: center;
-        margin-top: 219px;
-        margin-left: 120px;
-        margin-right: 120px;
+        margin-top: 200px;
+        margin-left: 320px;
+        margin-right: 320px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
 }
+
+@media screen and (max-width: 600px){
+    body {
+        background-image: url(images/2eme\ page.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: unset;
+        height: 814px;
+    }
+    }
