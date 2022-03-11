@@ -4,24 +4,20 @@
     
 }
 
-body {
-    overflow-y: hidden; 
- }
-
-
-.couleur{
+body{
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(rgb(22, 22, 116),rgb(63, 63, 194),rgb(56, 108, 206),rgb(90, 145, 209),rgb(89, 187, 204),rgb(137, 238, 245));
+    background: linear-gradient(rgb(137, 238, 245),rgb(89, 187, 204),rgb(90, 145, 209),rgb(56, 108, 206),rgb(63, 63, 194),rgb(56, 108, 206),rgb(90, 145, 209),rgb(89, 187, 204),rgb(137, 238, 245));
 }
 
 .confirmation{
-    margin-top: 100px;
+    margin-top: 58px;
 }
 .titres {
     
-    margin-top: 40px;
+    margin-top: 39px;
     font-size: 40px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     
@@ -56,6 +52,7 @@ body {
         margin-top: 20px;
         border: black;
         margin-left: 550px;
+        text-align: center;
     }
 
     .mess {
@@ -64,11 +61,12 @@ body {
         font-size: 20px;
         font: message-box;
         padding: 10px;
-        height: 100px;
+        height: 122px;
         border-radius: 16px;
         margin-top: 20px;
         border: black;
-        margin-left: 550px;
+        margin-left: 487px;
+        text-align: center;
         
     }
 
@@ -91,7 +89,7 @@ body {
     }
 
     .imgcouleur {
-        width: 10%;
+        width: 8%;
        margin-left: 95px;
         margin-top: 10px;
     }
@@ -113,3 +111,502 @@ footer{
 }
 
     
+@media screen and (min-width: 350px) and (max-width:400px) {
+    .titres {
+        margin-top: 93px;
+        font-size: 62px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 332px;
+    }
+
+    .prenom {
+        background-color: rgb(143, 209, 235);
+        width: 300px;
+        font: message-box;
+        padding: 10px;
+        text-align: center;
+        height: 50px;
+        border-radius: 16px;
+        margin-top: 30px;
+        border: black;
+        margin-left: 210px;
+        font-size: xx-large;
+    }
+
+    .mail{
+        background-color: rgb(143, 209, 235);
+        width: 300px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 50px;
+        border-radius: 16px;
+        margin-top: 70px;
+        border: black;
+        margin-left: 210px;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .mess {
+        background-color: rgb(143, 209, 235);
+        width: 535px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 214px;
+        border-radius: 16px;
+        margin-top: 70px;
+        border: black;
+        margin-left: 79px;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .envoyer {
+        background-color: rgb(143, 209, 235);
+        width: 164px;
+        font-size: 32px;
+        margin-top: 83px;
+        margin-left: 494px;
+        border: black;
+        border-radius: 15px;
+    }
+
+    .couleurs {
+        margin-left: 86px;
+        margin-top: 67px;
+        font-size: 22px;
+    }
+
+    .imgcouleur {
+        width: 25%;
+        margin-left: 181px;
+        margin-top: 24px;
+    }
+
+}
+
+@media screen and (min-width: 380px) and (max-width:400px){
+
+    .couleurs {
+        margin-left: 93px;
+        margin-top: 67px;
+        font-size: 33px;
+    }
+
+    .imgcouleur {
+        width: 35%;
+        margin-left: 127px;
+        margin-top: 40px;
+        margin-bottom: 48px;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width:570px) {
+
+    .titres {
+        margin-top: 85px;
+        font-size: 82px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 437px;
+    }
+
+    .prenom {
+        background-color: rgb(143, 209, 235);
+        width: 384px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        text-align: center;
+        height: 95px;
+        border-radius: 16px;
+        margin-top: 20px;
+        border: black;
+        text-align: center;
+        margin-left: 220px;
+        font-size: xxx-large;
+    }
+
+    .mail {
+        background-color: rgb(143, 209, 235);
+        width: 384px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 95px;
+        border-radius: 16px;
+        margin-top: 70px;
+        border: black;
+        margin-left: 220px;
+        text-align: center;
+        font-size: xxx-large;
+    }
+
+    .mess {
+        background-color: rgb(143, 209, 235);
+        width: 712px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 359px;
+        border-radius: 16px;
+        margin-top: 69px;
+        border: black;
+        margin-left: 28px;
+        text-align: center;
+        font-size: xxx-large;
+    }
+
+    .envoyer {
+        background-color: rgb(143, 209, 235);
+        width: 174px;
+        font-size: 40px;
+        margin-top: 45px;
+        margin-left: 582px;
+        border: black;
+        border-radius: 15px;
+    }
+
+    .couleurs {
+        margin-left: 71px;
+        margin-top: 120px;
+        font-size: 32px;
+    }
+
+    .imgcouleur {
+        width: 26%;
+        margin-left: 216px;
+        margin-top: 25px;
+        margin-bottom: 98px;
+    }
+
+}
+
+@media screen and (min-width: 520px) and (max-width:580px){
+    .titres {
+        margin-top: 85px;
+        font-size: 70px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 263px;
+    }
+
+    .prenom {
+        background-color: rgb(143, 209, 235);
+        width: 305px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        text-align: center;
+        height: 62px;
+        border-radius: 16px;
+        margin-top: 11px;
+        border: black;
+        text-align: center;
+        margin-left: 220px;
+        font-size: xx-large;
+    }
+
+    .mail {
+        background-color: rgb(143, 209, 235);
+        width: 305px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 62px;
+        border-radius: 16px;
+        margin-top: 70px;
+        border: black;
+        margin-left: 220px;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .mess {
+        background-color: rgb(143, 209, 235);
+        width: 584px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 242px;
+        border-radius: 16px;
+        margin-top: 50px;
+        border: black;
+        margin-left: 100px;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .envoyer {
+        background-color: rgb(143, 209, 235);
+        width: 174px;
+        font-size: 40px;
+        margin-top: 45px;
+        margin-left: 582px;
+        border: black;
+        border-radius: 15px;
+    }
+
+    .couleurs {
+        margin-left: 71px;
+        margin-top: 120px;
+        font-size: 32px;
+    }
+
+    .imgcouleur {
+        width: 26%;
+        margin-left: 216px;
+        margin-top: 25px;
+        margin-bottom: 98px;
+    }
+
+}
+
+@media screen and (min-width: 280px) and (max-width:350px) {
+
+    .titres {
+        margin-top: 93px;
+        font-size: 62px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 332px;
+    }
+
+    .prenom {
+        background-color: rgb(143, 209, 235);
+        width: 300px;
+        font: message-box;
+        padding: 10px;
+        text-align: center;
+        height: 50px;
+        border-radius: 16px;
+        margin-top: 30px;
+        border: black;
+        margin-left: 210px;
+        font-size: xx-large;
+    }
+
+    .mail{
+        background-color: rgb(143, 209, 235);
+        width: 300px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 50px;
+        border-radius: 16px;
+        margin-top: 70px;
+        border: black;
+        margin-left: 210px;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .mess {
+        background-color: rgb(143, 209, 235);
+        width: 535px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 214px;
+        border-radius: 16px;
+        margin-top: 70px;
+        border: black;
+        margin-left: 79px;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .envoyer {
+        background-color: rgb(143, 209, 235);
+        width: 164px;
+        font-size: 32px;
+        margin-top: 83px;
+        margin-left: 494px;
+        border: black;
+        border-radius: 15px;
+    }
+
+    .couleurs {
+    margin-left: 86px;
+    margin-top: 158px;
+    font-size: 29px;
+}
+
+.imgcouleur {
+    width: 35%;
+    margin-left: 218px;
+    margin-top: 41px;
+    margin-bottom: 141px;
+}
+
+}
+
+@media screen and (min-width: 750px) and (max-width:900px) {
+
+    .titres {
+        margin-top: 85px;
+        font-size: 70px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: -17px;
+    }
+
+    .prenom {
+        background-color: rgb(143, 209, 235);
+        width: 265px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        text-align: center;
+        height: 62px;
+        border-radius: 16px;
+        margin-top: 1px;
+        border: black;
+        text-align: center;
+        margin-left: 260px;
+        font-size: xx-large;
+    }
+
+    .mail {
+        background-color: rgb(143, 209, 235);
+        width: 265px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 62px;
+        border-radius: 16px;
+        margin-top: 40px;
+        border: black;
+        margin-left: 260px;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .mess {
+        background-color: rgb(143, 209, 235);
+        width: 556px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 242px;
+        border-radius: 16px;
+        margin-top: 45px;
+        border: black;
+        margin-left: 130px;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .envoyer {
+        background-color: rgb(143, 209, 235);
+        width: 174px;
+        font-size: 36px;
+        margin-top: 45px;
+        margin-left: 582px;
+        border: black;
+        border-radius: 15px;
+    }
+
+    .couleurs {
+        margin-left: 38px;
+        margin-top: 72px;
+        font-size: 28px;
+    }
+
+    .imgcouleur {
+        width: 12%;
+        margin-left: 438px;
+        margin-top: -54px;
+        margin-bottom: -9px;
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width:1000px) {
+
+    .titres {
+        margin-top: 94px;
+        font-size: 70px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        margin-left: -121px;
+    }
+
+    .prenom {
+        background-color: rgb(143, 209, 235);
+        width: 265px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        text-align: center;
+        height: 62px;
+        border-radius: 16px;
+        margin-top: 80px;
+        border: black;
+        text-align: center;
+        margin-left: 260px;
+        font-size: xx-large;
+    }
+
+    .mail {
+        background-color: rgb(143, 209, 235);
+        width: 265px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 62px;
+        border-radius: 16px;
+        margin-top: 40px;
+        border: black;
+        margin-left: 260px;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .mess {
+        background-color: rgb(143, 209, 235);
+        width: 556px;
+        font-size: 20px;
+        font: message-box;
+        padding: 10px;
+        height: 242px;
+        border-radius: 16px;
+        margin-top: 45px;
+        border: black;
+        margin-left: 130px;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .envoyer {
+        background-color: rgb(143, 209, 235);
+        width: 174px;
+        font-size: 36px;
+        margin-top: 45px;
+        margin-left: 582px;
+        border: black;
+        border-radius: 15px;
+    }
+
+    .couleurs {
+        margin-left: 38px;
+        margin-top: 232px;
+        font-size: 30px;
+    }
+
+    .imgcouleur {
+        width: 12%;
+        margin-left: 442px;
+        margin-top: -54px;
+        margin-bottom: -9px;
+    }
+
+}
