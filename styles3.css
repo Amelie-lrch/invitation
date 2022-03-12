@@ -210,81 +210,80 @@ footer{
 @media screen and (min-width: 400px) and (max-width:570px) {
 
     .titres {
-        margin-top: 85px;
-        font-size: 82px;
+        margin-top: 15px;
+        font-size: 42px;
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
-        margin-left: 437px;
+        margin-left: -5px;
     }
 
     .prenom {
         background-color: rgb(143, 209, 235);
-        width: 384px;
+        width: 290px;
         font-size: 20px;
         font: message-box;
         padding: 10px;
         text-align: center;
-        height: 95px;
+        height: 77px;
         border-radius: 16px;
         margin-top: 20px;
         border: black;
         text-align: center;
-        margin-left: 220px;
-        font-size: xxx-large;
+        margin-left: 20px;
+        font-size: 25px;
     }
 
     .mail {
         background-color: rgb(143, 209, 235);
-        width: 384px;
+        width: 290px;
         font-size: 20px;
         font: message-box;
         padding: 10px;
-        height: 95px;
+        height: 77px;
         border-radius: 16px;
-        margin-top: 70px;
+        margin-top: 23px;
         border: black;
-        margin-left: 220px;
+        margin-left: 20px;
         text-align: center;
-        font-size: xxx-large;
+        font-size: 25px;
     }
 
     .mess {
         background-color: rgb(143, 209, 235);
-        width: 712px;
-        font-size: 20px;
+        width: 350px;
         font: message-box;
         padding: 10px;
-        height: 359px;
+        height: 243px;
         border-radius: 16px;
-        margin-top: 69px;
+        margin-top: 27px;
         border: black;
-        margin-left: 28px;
+        margin-left: 20px;
         text-align: center;
-        font-size: xxx-large;
+        font-size: 24px;
     }
 
     .envoyer {
         background-color: rgb(143, 209, 235);
-        width: 174px;
-        font-size: 40px;
-        margin-top: 45px;
-        margin-left: 582px;
+        width: 149px;
+        font-size: 25px;
+        margin-top: 29px;
+        margin-left: 252px;
         border: black;
         border-radius: 15px;
     }
 
     .couleurs {
-        margin-left: 71px;
-        margin-top: 120px;
-        font-size: 32px;
+        margin-left: 35px;
+        margin-top: 48px;
+        font-size: 20px;
     }
 
     .imgcouleur {
-        width: 26%;
-        margin-left: 216px;
-        margin-top: 25px;
-        margin-bottom: 98px;
+        width: 15%;
+        margin-left: 125px;
+        margin-top: 18px;
+        margin-bottom: -29px;
     }
 
 }
