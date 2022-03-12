@@ -193,18 +193,17 @@ footer{
 @media screen and (min-width: 380px) and (max-width:400px){
 
     .couleurs {
-        margin-left: 93px;
+        margin-left: 48px;
         margin-top: 67px;
-        font-size: 33px;
+        font-size: 19px;
     }
 
     .imgcouleur {
-        width: 35%;
+        width: 20%;
         margin-left: 127px;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 48px;
     }
-
 }
 
 @media screen and (min-width: 400px) and (max-width:570px) {
@@ -291,16 +290,16 @@ footer{
 @media screen and (min-width: 520px) and (max-width:580px){
     .titres {
         margin-top: 85px;
-        font-size: 70px;
+        font-size: 40px;
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
-        margin-left: 263px;
+        margin-left: 153px;
     }
 
     .prenom {
         background-color: rgb(143, 209, 235);
-        width: 305px;
+        width: 200px;
         font-size: 20px;
         font: message-box;
         padding: 10px;
@@ -310,61 +309,61 @@ footer{
         margin-top: 11px;
         border: black;
         text-align: center;
-        margin-left: 220px;
-        font-size: xx-large;
+        margin-left: 75px;
+        font-size: 25px;
     }
 
     .mail {
         background-color: rgb(143, 209, 235);
-        width: 305px;
+        
         font-size: 20px;
         font: message-box;
         padding: 10px;
         height: 62px;
         border-radius: 16px;
-        margin-top: 70px;
+        margin-top: 24px;
         border: black;
-        margin-left: 220px;
+        margin-left: 75px;
         text-align: center;
-        font-size: xx-large;
+        font-size: 25px;
     }
 
     .mess {
         background-color: rgb(143, 209, 235);
-        width: 584px;
+        width: 367px;
         font-size: 20px;
         font: message-box;
         padding: 10px;
-        height: 242px;
+        height: 194px;
         border-radius: 16px;
-        margin-top: 50px;
+        margin-top: 24px;
         border: black;
-        margin-left: 100px;
+        margin-left: 65px;
         text-align: center;
-        font-size: xx-large;
+        font-size: 24px;
     }
 
     .envoyer {
         background-color: rgb(143, 209, 235);
         width: 174px;
-        font-size: 40px;
+        font-size: 25px;
         margin-top: 45px;
-        margin-left: 582px;
+        margin-left: 261px;
         border: black;
         border-radius: 15px;
     }
 
     .couleurs {
-        margin-left: 71px;
-        margin-top: 120px;
-        font-size: 32px;
+        margin-left: 49px;
+        margin-top: 32px;
+        font-size: 19px;
     }
 
     .imgcouleur {
-        width: 26%;
-        margin-left: 216px;
+        width: 16%;
+        margin-left: 133px;
         margin-top: 25px;
-        margin-bottom: 98px;
+        margin-bottom: -11px;
     }
 
 }
@@ -372,80 +371,86 @@ footer{
 @media screen and (min-width: 280px) and (max-width:350px) {
 
     .titres {
-        margin-top: 93px;
-        font-size: 62px;
+        margin-top: 50px;
+        font-size: 30px;
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
-        margin-left: 332px;
+        margin-left: 52px;
     }
 
     .prenom {
         background-color: rgb(143, 209, 235);
-        width: 300px;
+        width: 168px;
         font: message-box;
         padding: 10px;
         text-align: center;
-        height: 50px;
+        height: 45px;
         border-radius: 16px;
-        margin-top: 30px;
+        margin-top: -29px;
         border: black;
-        margin-left: 210px;
-        font-size: xx-large;
+        margin-left: 46px;
+        font-size: 15px;
     }
 
     .mail{
         background-color: rgb(143, 209, 235);
-        width: 300px;
-        font-size: 20px;
+        width: 170px;
         font: message-box;
         padding: 10px;
-        height: 50px;
+        height: 45px;
         border-radius: 16px;
-        margin-top: 70px;
+        margin-top: 17px;
         border: black;
-        margin-left: 210px;
+        margin-left: 46px;
         text-align: center;
-        font-size: xx-large;
+        font-size: 15px;
     }
 
     .mess {
         background-color: rgb(143, 209, 235);
-        width: 535px;
-        font-size: 20px;
+        width: 253px;
         font: message-box;
         padding: 10px;
-        height: 214px;
+        height: 120px;
         border-radius: 16px;
-        margin-top: 70px;
+        margin-top: 17px;
         border: black;
-        margin-left: 79px;
+        margin-left: 9px;
         text-align: center;
-        font-size: xx-large;
+        font-size: 16px;
     }
-
+    
+    
     .envoyer {
         background-color: rgb(143, 209, 235);
-        width: 164px;
-        font-size: 32px;
-        margin-top: 83px;
-        margin-left: 494px;
+        width: 108px;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 171px;
         border: black;
         border-radius: 15px;
     }
+    
+    
 
     .couleurs {
-    margin-left: 86px;
-    margin-top: 158px;
-    font-size: 29px;
-}
+        margin-left: 24px;
+        margin-top: 59px;
+        font-size: 16px;
+    }
 
-.imgcouleur {
-    width: 35%;
-    margin-left: 218px;
-    margin-top: 41px;
-    margin-bottom: 141px;
-}
+    .imgcouleur {
+        width: 14%;
+        margin-left: 105px;
+        margin-top: 13px;
+        margin-bottom: -31px;
+    }
+
+    .fa-arrow-left:before {
+        content: "\f060";
+        font-size: 63%;
+    }
 
 }
 
